@@ -1,0 +1,44 @@
+body{
+  background-image: url(./bg-img.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  width: 100%;
+  height: auto;
+  font-family: 'montseratt', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1{
+  color: #FFF;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 3px 3px rgba(255, 255, 255, 0.37);
+}
+
+.input{
+  padding: 15px;
+  width: 70%;
+  background-color:  #ffffffb9;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid rgb(255, 255, 255);
+  color: #000000;
+  font-size: 24px;
+  transition: 0.8s ease;
+}
+
+select{
+  margin-left : 15px;
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+  background-color:  #ffffff;
+  border: 0.9px solid rgb(100, 98, 98);
+  color: #000000;
+  font-size: 24px;
+}
